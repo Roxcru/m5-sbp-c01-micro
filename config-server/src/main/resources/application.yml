@@ -1,0 +1,15 @@
+#spring.application.name=config-server
+server:
+  port: 8884
+
+spring:
+  application:
+      name: config-server
+  cloud:
+      config:
+          server:
+            git:
+              #file:///C:/ARCHIVOS/PROYECTO/config-repo
+              #uri: file//${user.home}/config-repo
+              uri: file:///C:/ARCHIVOS/PROYECTO/config-repo
+              default-label: main
