@@ -1,6 +1,6 @@
 spring:
     application:
-      name: config-client
+      name: user-service
     cloud:
       config:
         uri: http://localhost:8084

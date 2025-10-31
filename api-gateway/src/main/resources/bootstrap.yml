@@ -10,5 +10,5 @@ spring:
       uri: http://localhost:8084
       fail-fast: true
       retry:
-        max-attempts: 3
-        initial-interval: 1000
+            max-attempts: 3
+            initial-interval: 1000
